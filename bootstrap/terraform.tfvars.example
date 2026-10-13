@@ -1,0 +1,10 @@
+project_id  = "my-project-id"
+bucket_name = "my-project-id-tfstate"
+location    = "asia-southeast2"
+
+# Fill in after the first local apply of each environment (outputs
+# terraform_service_account_email), then re-apply bootstrap.
+# state_writers = {
+#   "envs/dev"  = "serviceAccount:github-terraform@my-project-id-dev.iam.gserviceaccount.com"
+#   "envs/prod" = "serviceAccount:github-terraform@my-project-id-prod.iam.gserviceaccount.com"
+# }
